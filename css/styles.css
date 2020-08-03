@@ -168,3 +168,352 @@ body {
 .phone-number-link, .phone-number-link img{
   display: block;
 }
+/* Information about coronavirus */
+.covid-information-box {
+  margin-bottom: 18px;
+}
+.coronavirus-information-box {
+  position: relative;
+  display: flex;
+  background-color: #F6F6F9;
+  border-radius: 5px;
+  padding: 41px 0 40px 103px;
+}
+.flex {
+  display: flex;
+}
+.coronavirus-uz {
+  width: 232px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  margin-right: 157px;
+}
+.coronovirus-img {
+  position: absolute;
+  top: 44px;
+  width: 43px;
+  height: 45px;
+  left: 35px;
+  background: url("../img/coronavirus.svg");
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.ill-people-text {
+  width: 161px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 21px;
+  color: #DB0000;
+  margin-right: 130px;
+}
+.coronavirus-in-numbers {
+  line-height: 27px;
+  font-weight: 500;
+  color: #000;
+  font-size: 22px;
+}
+.red-border {
+  position: absolute;
+  top: 30px;
+  left: 406px;
+  width: 2px;
+  height: 74px;
+  background-color: #EB5569;
+}
+.mask-emoji-face {
+  position: absolute;
+  top: 47px;
+  left: 437px;
+  width: 38px;
+  height: 40px;
+  background: url("../img/emojione-monotone_face-with-medical-mask.svg");
+}
+.healthy-people-text {
+  width: 161px;
+  margin: 0;
+  margin-right: 95px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #05B135;
+}
+.yellow-border {
+  position: absolute;
+  top: 42px;
+  left: 695px;
+  width: 2px;
+  height: 49px;
+  background-color: #F4CCD1;
+}
+.smiling-emoji {
+  position: absolute;
+  top: 48px;
+  left: 726px;
+  width: 38px;
+  height: 40px;
+  background: url("../img/cil_smile.svg");
+}
+.died-people-text {
+  width: 91px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin: 0;
+}
+.last-border {
+  position: absolute;
+  top: 42px;
+  left: 953px;
+  width: 2px;
+  height: 49px;
+  background-color: #F4CCD1;
+}
+.died-img {
+  position: absolute;
+  top: 47px;
+  left: 982px;
+  width: 38px;
+  height: 38px;
+  background: url("../img/died.svg");
+}
+/* Top small news section */
+.top-news {
+  margin-bottom: 34px;
+}
+.top-news-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-small-new {
+  margin-right: 20px;
+  margin-bottom: 18px;
+}
+.top-small-new:nth-child(3n) {
+  margin-right: 0;
+}
+.small-new-img {
+  display: block;
+  margin-bottom: 11px;
+  border-radius: 5px;
+}
+.small-new-content {
+  width: 320px;
+}
+.small-new-title {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+  margin-bottom: 11px;
+}
+.small-new-date {
+  font-size: 14px;
+  line-height: 17px;
+  color: #6B6D97;
+}
+/* Advertising wrapper */
+.advertising-wrapper {
+  display: block;
+  margin-bottom: 38px;
+}
+.advertising-wrapper-container {
+  display: flex;
+  align-items: center;
+  padding: 25px 20px 24px 34px;
+  background-color: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+}
+
+.advertising-wrapper-text {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.bell-img {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 31px;
+  height: 35px;
+  margin-right: 17px;
+  background-image: url("../img/bell.svg");
+}
+.advertising-wrapper-text p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.switch-on-news {
+  border: none;
+  padding: 8px 8px 8px 15px;
+  background: linear-gradient(
+  90deg, 
+  #FE5C28 0%, 
+  rgba(255, 139, 54, 0.9) 88.43%);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.switch-on-news:focus,
+.switch-on-news:hover {
+  outline: none;
+  box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.5);
+}
+/* News section */
+.news-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
+.lastest-news {
+  margin-right: 20px;
+}
+.lastest-news-part {
+  width: 795px;
+}
+.lastest-news-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.lastest-news-box-img img {
+  display: block;
+  margin-right: 19px;
+}
+.lastest-news-box-heading {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+}
+.lastest-news-box-content {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+}
+.lastest-news-box-date {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688A4;
+}
+.calendare-img {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 18px;
+  height: 20px;
+  margin-right: 4px;
+  background-image: url("../img/calendare.svg");
+}
+.more-news {
+  display: flex;
+  align-items: center;
+}
+.more-news-link{
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  background: #295093;
+  border-radius: 5px;
+  padding: 10px 32px;
+  color: #fff;
+  text-decoration: none;
+}
+/* Popular news part */
+.popular-news-part {
+  width: 386px;
+}
+.popular-news-bgc {
+  background-color: #f6f6f9;
+  border-radius: 5px;
+  padding: 16px 19px 18px 20px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.popular-news-heading {
+  font-size: 20px;
+  line-height: 24px;
+  color: #202020;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+.popular-news-box {
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+  border-bottom: 4px solid #E4E4E4;
+}
+.popular-news-box:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.popular-news-text {
+  margin-top: 0;
+  margin-bottom: 11px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #202020;
+}
+.popular-news-date {
+  font-size: 14px;
+  line-height: 17px;
+  color: #7688A4;
+}
+.ucell-cosmo-img {
+  display: block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 386px;
+  height: 477px;
+  background-image: url("../img/ucell.png");
+}
+/* Be in the course advertisment */
+.be-in-the-course-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F6F6F9;
+  border-radius: 5px;
+  padding: 37px 20px 0 19px;
+  margin-bottom: 38px;
+}
+.be-in-course-context {
+  max-width: 526px;
+}
+.be-in-course-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #295093;
+}
+.be-in-course-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+.get-in {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+.get-in img {
+  display: block;
+  cursor: pointer;
+}
