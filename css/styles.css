@@ -68,6 +68,7 @@ body {
 .logo-img {
   width: 303px;
   height: 33px;
+  display: inline-block;
 }
 /* Exchange-rates */
 .money-exchange {
@@ -113,6 +114,9 @@ body {
 }
 .language-ru img{
   border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
 }
 /* Telegram-join-link */
 .telegram-join-link {
